@@ -1,10 +1,11 @@
 import React from 'react';
 import './Priority.css'
-import nopri from './No-Priority.svg'
-import hp from './hp.svg'
-import ip from './ip.svg'
-import mp from './mp.svg'
-import lp from './lp.svg'
+import { ReactComponent as nopri } from './No-Priority.svg';
+import { ReactComponent as hp } from './hp.svg';
+import { ReactComponent as mp } from './mp.svg';
+import { ReactComponent as lp } from './lp.svg';
+import { ReactComponent as ip } from './ip.svg';
+
 import Card from '../Card/Card';
 function Priority({ordering, datas }) {
     const p=datas[0].priority
