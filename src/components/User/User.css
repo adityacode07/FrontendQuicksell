@@ -1,0 +1,37 @@
+.sizes{
+    display: flex;
+    justify-content:start
+}
+.main{
+    max-width: 261px;
+}
+.pic {
+    width: 17px;
+    height: 17px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+    margin-top: 1.6px;
+    font-family: sans-serif;
+    
+  }
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  
+}
+.left-part{
+    display: flex;
+    gap:6px
+}
+.right{
+    display: flex;
+    gap:8px
+}
+.card-section{
+    margin-bottom: 18px;
+}
