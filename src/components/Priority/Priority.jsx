@@ -1,6 +1,6 @@
 import React from 'react';
 import './Priority.css'
-import Nop from './No-Priority.svg'
+import nopri from './No-Priority.svg'
 import hp from './hp.svg'
 import ip from './ip.svg'
 import mp from './mp.svg'
@@ -20,7 +20,7 @@ function Priority({ordering, datas }) {
     <div className='left-part'>
     <div>
     
-    {p===0?(<img src={Nop}/> ):p===1?(<img src={lp}/> ):p===2?(<img src={mp}/> ):p===3?(<img src={hp}/> ):(<img src={ip}/> )}
+    {p===0?(<img src={nopri}/> ):p===1?(<img src={lp}/> ):p===2?(<img src={mp}/> ):p===3?(<img src={hp}/> ):(<img src={ip}/> )}
     </div>
     <span>
     {p===0?(<div>No priority</div>):p===1?(<div>Low</div>):p===2?(<div>Medium</div>):p===3?(<div>High</div>):(<div>Urgent</div>)}
