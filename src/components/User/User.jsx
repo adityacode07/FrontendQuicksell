@@ -19,7 +19,7 @@ function User({ordering,datas}) {
     {initials}
     </div>
     <span>
-    Anoop Sharma
+    {datas[0].userName}
     </span>
     <div>
     </div>
