@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Nav.css";
+import display from './Display.svg'
 import down from './down.svg'
 
 const Nav = ({displayOpen,setDisplay,grouping,setGrouping,ordering,setOrdering}) => {
